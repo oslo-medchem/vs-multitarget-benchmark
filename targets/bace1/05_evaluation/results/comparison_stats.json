@@ -1,0 +1,171 @@
+{
+  "delong_auc_full": {
+    "analysis": "full_library_with_score0_penalty",
+    "auc_naive": 0.46959953703703705,
+    "auc_skill": 0.6359004629629523,
+    "delta_auc": 0.16599652777777774,
+    "ci_95_low": 0.09176416660040758,
+    "ci_95_high": 0.24022888895514788,
+    "z_stat": 4.382902406499617,
+    "p_value": 1.171085823292728e-05
+  },
+  "delong_auc": {
+    "analysis": "intersection_docked_in_both",
+    "n_compounds": 1231,
+    "n_actives": 8,
+    "auc_naive": 0.5907093213409649,
+    "auc_skill": 0.3985588716271464,
+    "delta_auc": -0.19215044971381856,
+    "ci_95_low": -0.4497665068877385,
+    "ci_95_high": 0.06546560746010138,
+    "z_stat": -1.4619231641482144,
+    "p_value": 0.14376226647477086
+  },
+  "permutation_roc_auc": {
+    "observed_delta": 0.16599652777777768,
+    "p_value_permutation": 0.0001,
+    "metric_naive": 0.6266213399704557,
+    "metric_skill": 0.4970036056198005
+  },
+  "permutation_bedroc_20": {
+    "observed_delta": 0.09354850512656611,
+    "p_value_permutation": 0.1923,
+    "metric_naive": 0.11486671955388716,
+    "metric_skill": 0.08174258915842089
+  },
+  "permutation_ef_1pct": {
+    "observed_delta": -1.0,
+    "p_value_permutation": 0.6906,
+    "metric_naive": 10.214424951267057,
+    "metric_skill": 2.3297619047619045
+  },
+  "permutation_ef_5pct": {
+    "observed_delta": 0.9999999999999999,
+    "p_value_permutation": 0.1378,
+    "metric_naive": 2.1052631578947367,
+    "metric_skill": 0.9509232264334305
+  },
+  "mannwhitney_naive": {
+    "U_statistic": 18457.0,
+    "p_value": 0.028523016414161086,
+    "rank_biserial_r": 0.2530403286185475,
+    "interpretation": "actives ranked better than decoys (p < 0.05 = significant)"
+  },
+  "mannwhitney_skill": {
+    "U_statistic": 40467.0,
+    "p_value": 0.5277840315517353,
+    "rank_biserial_r": -0.0062663185378590835,
+    "interpretation": "not significant"
+  },
+  "bh_correction": {
+    "delong_auc": {
+      "p_raw": 0.14376226647477086,
+      "p_bh": 0.251583966330849,
+      "significant_bh": false
+    },
+    "perm_roc_auc": {
+      "p_raw": 0.0001,
+      "p_bh": 0.0007,
+      "significant_bh": true
+    },
+    "perm_bedroc_20": {
+      "p_raw": 0.1923,
+      "p_bh": 0.26922,
+      "significant_bh": false
+    },
+    "perm_ef_1pct": {
+      "p_raw": 0.6906,
+      "p_bh": 0.6906,
+      "significant_bh": false
+    },
+    "perm_ef_5pct": {
+      "p_raw": 0.1378,
+      "p_bh": 0.251583966330849,
+      "significant_bh": false
+    },
+    "mw_naive": {
+      "p_raw": 0.028523016414161086,
+      "p_bh": 0.0998305574495638,
+      "significant_bh": false
+    },
+    "mw_skill": {
+      "p_raw": 0.5277840315517353,
+      "p_bh": 0.6157480368103578,
+      "significant_bh": false
+    }
+  },
+  "nri_ef1pct": {
+    "nri": -0.010231481481481482,
+    "nri_actives": -0.01,
+    "nri_decoys": -0.0002314814814814815,
+    "n_actives_up": 1,
+    "n_actives_down": 2
+  },
+  "pains_filtering": {
+    "n_filtered_total": 2267,
+    "n_filtered_actives": 58,
+    "n_filtered_decoys": 2209,
+    "filtered_active_ids": [
+      "ACT_013",
+      "ACT_068",
+      "ACT_100",
+      "ACT_081",
+      "ACT_022",
+      "ACT_055",
+      "ACT_039",
+      "ACT_084",
+      "ACT_036",
+      "ACT_051",
+      "ACT_061",
+      "ACT_097",
+      "ACT_087",
+      "ACT_077",
+      "ACT_049",
+      "ACT_069",
+      "ACT_066",
+      "ACT_020",
+      "ACT_094",
+      "ACT_032",
+      "ACT_076",
+      "ACT_042",
+      "ACT_009",
+      "ACT_095",
+      "ACT_050",
+      "ACT_092",
+      "ACT_029",
+      "ACT_046",
+      "ACT_056",
+      "ACT_099",
+      "ACT_005",
+      "ACT_008",
+      "ACT_007",
+      "ACT_083",
+      "ACT_067",
+      "ACT_059",
+      "ACT_058",
+      "ACT_015",
+      "ACT_045",
+      "ACT_041",
+      "ACT_091",
+      "ACT_063",
+      "ACT_064",
+      "ACT_024",
+      "ACT_065",
+      "ACT_079",
+      "ACT_098",
+      "ACT_073",
+      "ACT_080",
+      "ACT_004",
+      "ACT_003",
+      "ACT_038",
+      "ACT_006",
+      "ACT_048",
+      "ACT_031",
+      "ACT_078",
+      "ACT_016",
+      "ACT_002"
+    ],
+    "pct_actives_removed": 58.0,
+    "pct_decoys_removed": 51.1
+  }
+}
