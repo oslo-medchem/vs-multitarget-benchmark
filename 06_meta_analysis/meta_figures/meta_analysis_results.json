@@ -1,0 +1,121 @@
+{
+  "method": "DerSimonian-Laird random-effects",
+  "metric": "delta_ROC_AUC (skill - naive)",
+  "k": 11,
+  "pooled_delta": -0.00046627119695215617,
+  "se_pooled": 0.014787841451080447,
+  "ci_low": -0.02945044044106983,
+  "ci_high": 0.028517898047165518,
+  "z": -0.0315307138296434,
+  "p_value": 0.974846298222612,
+  "tau2": 0.0010649476929209326,
+  "tau": 0.032633536322637983,
+  "Q": 20.824050942943515,
+  "Q_df": 10,
+  "Q_pvalue": 0.022354433967028853,
+  "I2": 51.97860383938111,
+  "weights_re": [
+    762.814007769587,
+    499.383048718014,
+    504.84732645942415,
+    255.09988145303663,
+    643.5286117672225,
+    551.4479250674171,
+    246.93777911755907,
+    54.523746177862954,
+    277.2059156860982,
+    545.500233998943,
+    231.5980927873695
+  ],
+  "pooled_fixed": -0.005683533053342962,
+  "per_target": [
+    {
+      "target": "fpr2",
+      "target_class": "GPCR",
+      "delta_auc": -0.007947,
+      "ci_low": -0.038688,
+      "ci_high": 0.022794,
+      "se": 0.015684
+    },
+    {
+      "target": "egfr",
+      "target_class": "kinase",
+      "delta_auc": 0.001744,
+      "ci_low": -0.058269,
+      "ci_high": 0.061758,
+      "se": 0.030619
+    },
+    {
+      "target": "cdk2",
+      "target_class": "kinase",
+      "delta_auc": -0.014889,
+      "ci_low": -0.074204,
+      "ci_high": 0.044427,
+      "se": 0.030263
+    },
+    {
+      "target": "cox2",
+      "target_class": "enzyme",
+      "delta_auc": 0.129249,
+      "ci_low": 0.024521,
+      "ci_high": 0.233977,
+      "se": 0.053433
+    },
+    {
+      "target": "esr1",
+      "target_class": "nuclear_receptor",
+      "delta_auc": -0.008814,
+      "ci_low": -0.052154,
+      "ci_high": 0.034527,
+      "se": 0.022113
+    },
+    {
+      "target": "dpp4",
+      "target_class": "serine_protease",
+      "delta_auc": -0.04981,
+      "ci_low": -0.103432,
+      "ci_high": 0.003812,
+      "se": 0.027358
+    },
+    {
+      "target": "ache",
+      "target_class": "hydrolase",
+      "delta_auc": 0.156763,
+      "ci_low": 0.049685,
+      "ci_high": 0.263842,
+      "se": 0.054632
+    },
+    {
+      "target": "bace1",
+      "target_class": "aspartyl_protease",
+      "delta_auc": -0.19215,
+      "ci_low": -0.449767,
+      "ci_high": 0.065466,
+      "se": 0.131437
+    },
+    {
+      "target": "hsp90",
+      "target_class": "chaperone",
+      "delta_auc": -0.008646,
+      "ci_low": -0.107475,
+      "ci_high": 0.090183,
+      "se": 0.050423
+    },
+    {
+      "target": "p38",
+      "target_class": "kinase",
+      "delta_auc": -0.003724,
+      "ci_low": -0.05805,
+      "ci_high": 0.050602,
+      "se": 0.027717
+    },
+    {
+      "target": "thrombin",
+      "target_class": "serine_protease",
+      "delta_auc": -0.056399,
+      "ci_low": -0.168186,
+      "ci_high": 0.055387,
+      "se": 0.057034
+    }
+  ]
+}
