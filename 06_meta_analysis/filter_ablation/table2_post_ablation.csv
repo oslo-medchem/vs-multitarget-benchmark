@@ -1,0 +1,12 @@
+target,delta_auc,p_value,p_adj,note
+fpr2,-0.007947,0.612351,0.6736,original
+egfr,-0.0334,0.0697,0.2633,ablated
+cdk2,-0.0195,0.4655,0.5689,ablated
+cox2,0.0394,0.2003,0.3672,ablated
+esr1,-0.0013,0.9452,0.9452,ablated
+dpp4,-0.0518,0.0531,0.2633,ablated
+ache,0.0388,0.0969,0.2665,ablated
+bace1,-0.1081,0.0718,0.2633,ablated
+hsp90,0.0266,0.4361,0.5689,ablated
+p38,-0.0141,0.4629,0.5689,ablated
+thrombin,-0.0744,0.1891,0.3672,ablated
