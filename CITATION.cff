@@ -6,7 +6,6 @@ authors:
   - given-names: Osman A. B. S. M.
     family-names: Gani
     affiliation: Section for Pharmaceutical Chemistry, Department of Pharmacy, University of Oslo, Norway
-    orcid: https://orcid.org/0000-0001-9158-2455
     email: osman.gani@farmasi.uio.no
 repository-code: https://github.com/oslo-medchem/vs-multitarget-benchmark
 license: MIT
