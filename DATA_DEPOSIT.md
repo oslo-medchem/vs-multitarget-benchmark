@@ -12,13 +12,15 @@ This split follows the GigaScience reviewer-preferred pattern:
   meta-analysis outputs, figures.
   - GitHub: https://github.com/oslo-medchem/vs-multitarget-benchmark
   - Zenodo concept DOI: [10.5281/zenodo.20036546](https://doi.org/10.5281/zenodo.20036546)
-  - Per-version DOI for v1.1-gigascience: [10.5281/zenodo.20036547](https://doi.org/10.5281/zenodo.20036547)
+  - Per-version DOI for v1.1-gigascience: [10.5281/zenodo.20036620](https://doi.org/10.5281/zenodo.20036620)
 
 - **Data deposit (Zenodo Dataset, CC-BY 4.0):** ChEMBL actives, decoys,
   receptors, Uni-Dock score tables, per-target evaluation outputs.
-  - DOI: pending (manual upload at https://zenodo.org/uploads/new); will be
-    added here once minted.
+  - Zenodo DOI: [10.5281/zenodo.20036964](https://doi.org/10.5281/zenodo.20036964)
+  - Concept DOI: [10.5281/zenodo.20036963](https://doi.org/10.5281/zenodo.20036963)
+  - Cross-linked to the software archive via Zenodo's `isSupplementTo` relation.
 
 To re-execute the analysis end to end, clone this repository, download the
-data deposit, and unzip it into the repository root so `targets/` is restored
-alongside `common/`, `prompts/`, `06_meta_analysis/`, and `07_manuscript/`.
+data zip from the Zenodo Dataset, and unzip it into the repository root so
+`targets/` is restored alongside `common/`, `prompts/`, `06_meta_analysis/`,
+and `07_manuscript/`.
