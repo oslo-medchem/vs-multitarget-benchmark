@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: Multi-target benchmark of skill-file-guided agentic virtual screening across eleven drug targets
+message: If you use this benchmark suite, please cite both the software (this repository) and the accompanying GigaScience Technical Note.
+type: software
+authors:
+  - given-names: Osman A. B. S. M.
+    family-names: Gani
+    affiliation: Section for Pharmaceutical Chemistry, Department of Pharmacy, University of Oslo, Norway
+    orcid: https://orcid.org/0000-0001-9158-2455
+    email: osman.gani@farmasi.uio.no
+repository-code: https://github.com/oslo-medchem/vs-multitarget-benchmark
+license: MIT
+keywords:
+  - virtual screening
+  - molecular docking
+  - Uni-Dock
+  - large language model
+  - agentic AI
+  - Claude Code
+  - skill file
+  - benchmark
+  - reproducibility
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Osman A. B. S. M.
+      family-names: Gani
+      affiliation: Section for Pharmaceutical Chemistry, Department of Pharmacy, University of Oslo, Norway
+  title: A controlled multi-target benchmark of skill-file-guided agentic virtual screening across eleven drug targets
+  year: 2026
+  journal: GigaScience
+  status: in-review

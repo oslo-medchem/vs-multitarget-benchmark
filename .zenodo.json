@@ -1,0 +1,47 @@
+{
+  "title": "Multi-target benchmark of skill-file-guided agentic virtual screening across eleven drug targets",
+  "description": "Reproducibility package for the manuscript 'A controlled multi-target benchmark of skill-file-guided agentic virtual screening across eleven drug targets' (single author, submitted to GigaScience as a Technical Note, May 2026). Contents: 202-line virtual-screening skill file (SKILL.md), verbatim agent prompts, 18 agent-emitted parameterised scripts per target, ChEMBL-derived 100-active + property-matched-decoy benchmark library for 11 protein targets across 6 classes (FPR2, EGFR, CDK2, COX-2, ESR1, DPP-4, AChE, BACE-1, HSP90, p38, Thrombin), Uni-Dock GPU docking output, intersection-DeLong analysis, DerSimonian-Laird random-effects meta-analysis, and true filter ablation. The benchmark suite is intended as a reusable resource for future agentic virtual-screening evaluations.",
+  "creators": [
+    {
+      "name": "Gani, Osman A. B. S. M.",
+      "affiliation": "Section for Pharmaceutical Chemistry, Department of Pharmacy, University of Oslo, Norway",
+      "orcid": "0000-0001-9158-2455"
+    }
+  ],
+  "keywords": [
+    "virtual screening",
+    "molecular docking",
+    "Uni-Dock",
+    "large language model",
+    "agentic AI",
+    "Claude Code",
+    "skill file",
+    "PAINS",
+    "Brenk",
+    "RDKit",
+    "Meeko",
+    "ChEMBL",
+    "benchmark",
+    "DerSimonian-Laird meta-analysis",
+    "Benjamini-Hochberg",
+    "intersection DeLong",
+    "filter ablation",
+    "reproducibility",
+    "drug discovery"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "upload_type": "software",
+  "communities": [
+    {"identifier": "zenodo"}
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "identifier": "https://github.com/oslo-medchem/vs-multitarget-benchmark",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Companion code-and-data archive for the GigaScience Technical Note submission (May 2026). The DOI (concept and per-version) for this archive is the artefact that the manuscript Data Availability and Code Availability statements point readers to."
+}
