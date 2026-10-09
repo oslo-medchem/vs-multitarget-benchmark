@@ -3,7 +3,7 @@ title: Multi-target benchmark of skill-file-guided agentic virtual screening acr
 message: If you use this benchmark suite, please cite both the software (this repository) and the accompanying GigaScience Technical Note.
 type: software
 authors:
-  - given-names: Osman A. B. S. M.
+  - given-names: Osman
     family-names: Gani
     affiliation: Section for Pharmaceutical Chemistry, Department of Pharmacy, University of Oslo, Norway
     email: osman.gani@farmasi.uio.no
@@ -22,10 +22,10 @@ keywords:
 preferred-citation:
   type: article
   authors:
-    - given-names: Osman A. B. S. M.
+    - given-names: Osman
       family-names: Gani
       affiliation: Section for Pharmaceutical Chemistry, Department of Pharmacy, University of Oslo, Norway
-  title: A controlled multi-target benchmark of skill-file-guided agentic virtual screening across eleven drug targets
+  title: "Virtual ligand screening by LLM agents: expert guidance changes the screened library, not the ranking"
   year: 2026
-  journal: GigaScience
-  status: in-review
+  journal: Journal of Cheminformatics
+  status: submitted

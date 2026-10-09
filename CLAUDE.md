@@ -30,7 +30,7 @@ Hardware: 2x NVIDIA RTX 4500 Ada (24 GB VRAM), CUDA 12.9, Uni-Dock 1.1.3
 | bace1 | CHEMBL4822 | 4IVS:A | Aspartyl protease |
 | hsp90 | CHEMBL3880 | 2WI7:A | Chaperone |
 | p38 | CHEMBL260 | 1KV2:A | Kinase |
-| thrombin | CHEMBL204 | 1HAH:B | Serine protease |
+| thrombin | CHEMBL204 | 2ZDM:A | Serine protease |
 
 ## Pipeline
 

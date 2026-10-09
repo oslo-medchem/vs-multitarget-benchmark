@@ -1,10 +1,18 @@
 # Data deposit
 
-The full per-target benchmark data (`targets/` directory: ChEMBL-curated
-actives, property-matched decoys, receptor and ligand PDBQT files, Uni-Dock
-score tables, and per-target evaluation outputs across 11 protein targets) is
-archived as a separate Zenodo Dataset to keep this code repository lean and
-under Zenodo's GitHub auto-archive size threshold.
+The per-target benchmark data (`targets/` directory: ChEMBL-curated actives,
+property-matched decoy sets, Uni-Dock score tables for both protocols and for
+the filter-ablation condition, the original run scripts, box centres and
+per-target evaluation outputs across 11 protein targets) are archived as a
+separate Zenodo Dataset to keep this code repository lean and under Zenodo's
+GitHub auto-archive size threshold.
+
+The deposit released as v1.0 does **not** contain the prepared receptor and
+ligand PDBQT files, the per-target preparation logs or the decoy-matching
+intermediates, so docking and decoy selection cannot be re-run from it as
+released. `REVISION_2026.md` lists exactly which analysis tables do and do not
+reproduce from it. Those preparation inputs are being added in a new version of
+the deposit.
 
 This split follows the GigaScience reviewer-preferred pattern:
 
@@ -15,7 +23,7 @@ This split follows the GigaScience reviewer-preferred pattern:
   - Per-version DOI for v1.1-gigascience: [10.5281/zenodo.20036620](https://doi.org/10.5281/zenodo.20036620)
 
 - **Data deposit (Zenodo Dataset, CC-BY 4.0):** ChEMBL actives, decoys,
-  receptors, Uni-Dock score tables, per-target evaluation outputs.
+  Uni-Dock score tables, per-target evaluation outputs.
   - Zenodo DOI: [10.5281/zenodo.20036964](https://doi.org/10.5281/zenodo.20036964)
   - Concept DOI: [10.5281/zenodo.20036963](https://doi.org/10.5281/zenodo.20036963)
   - Cross-linked to the software archive via Zenodo's `isSupplementTo` relation.

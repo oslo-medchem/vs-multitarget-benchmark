@@ -1,0 +1,12 @@
+target,n_decoys,decoys_that_are_qualifying_actives_of_same_target,pct_same_target,decoys_that_are_qualifying_actives_of_any_other_panel_target,pct_any_other,decoys_active_at_a_same_family_target,pct_same_family,family
+fpr2,4780,0,0.0,213,4.46,0,0.0,other
+egfr,4565,4,0.09,114,2.5,14,0.31,kinase
+cdk2,4763,1,0.02,131,2.75,18,0.38,kinase
+cox2,4633,2,0.04,97,2.09,0,0.0,other
+esr1,4711,2,0.04,135,2.87,0,0.0,other
+dpp4,4375,0,0.0,144,3.29,71,1.62,protease
+ache,3478,1,0.03,80,2.3,0,0.0,other
+bace1,4320,0,0.0,152,3.52,41,0.95,protease
+hsp90,4559,0,0.0,132,2.9,0,0.0,other
+p38,4839,0,0.0,109,2.25,6,0.12,kinase
+thrombin,4268,4,0.09,73,1.71,3,0.07,protease
