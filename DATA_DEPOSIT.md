@@ -7,12 +7,11 @@ per-target evaluation outputs across 11 protein targets) are archived as a
 separate Zenodo Dataset to keep this code repository lean and under Zenodo's
 GitHub auto-archive size threshold.
 
-The deposit released as v1.0 does **not** contain the prepared receptor and
-ligand PDBQT files, the per-target preparation logs or the decoy-matching
-intermediates, so docking and decoy selection cannot be re-run from it as
-released. `REVISION_2026.md` lists exactly which analysis tables do and do not
-reproduce from it. Those preparation inputs are being added in a new version of
-the deposit.
+Deposit v2.0 (10.5281/zenodo.23270845) adds the per-target preparation logs,
+the substructure-filter reports and a second archive with the prepared receptor
+and ligand PDBQT files for both routes, so every analysis table regenerates from
+it and the docking itself can be re-run. It supersedes 10.5281/zenodo.20036964,
+which held the score tables only.
 
 This split follows the GigaScience reviewer-preferred pattern:
 
@@ -24,8 +23,8 @@ This split follows the GigaScience reviewer-preferred pattern:
 
 - **Data deposit (Zenodo Dataset, CC-BY 4.0):** ChEMBL actives, decoys,
   Uni-Dock score tables, per-target evaluation outputs.
-  - Zenodo DOI: [10.5281/zenodo.20036964](https://doi.org/10.5281/zenodo.20036964)
-  - Concept DOI: [10.5281/zenodo.20036963](https://doi.org/10.5281/zenodo.20036963)
+  - Zenodo DOI: [10.5281/zenodo.23270845](https://doi.org/10.5281/zenodo.23270845)
+  - Concept DOI: [10.5281/zenodo.23270844](https://doi.org/10.5281/zenodo.23270844)
   - Cross-linked to the software archive via Zenodo's `isSupplementTo` relation.
 
 To re-execute the analysis end to end, clone this repository, download the

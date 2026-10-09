@@ -38,15 +38,15 @@ python make_figures_v2.py
 those files are at `targets/<target>/05_evaluation/skill_nofilter/`.
 
 Verified on 9 October 2026 against the published data deposit
-(10.5281/zenodo.20036964). Reproducing from the deposit alone gives
+(10.5281/zenodo.23270845). Reproducing from the deposit alone gives
 byte-identical `intersection_delong.csv`, `endtoend_delong.csv`,
 `decomposition.csv`, `decoy_contamination.csv`, `decoy_sensitivity.csv`,
 `assay_provenance.csv`, `score_range_audit.csv`,
 `nonphysical_score_sensitivity.csv`, `attrition_by_arm.csv` and all three meta-analysis JSON
 files.
 
-Three tables need inputs the deposit does not carry and therefore do not
-reproduce from it alone:
+With deposit v1.0 three tables did not reproduce, because it carried no
+preparation records:
 
 - `prep_matched.csv` and the filter-exclusion columns of `populations.csv` need
   the per-target preparation logs (`03_library_preparation/{naive,skill}/preparation_log.csv`
@@ -55,9 +55,9 @@ reproduce from it alone:
   `filtered_active_potency.csv` need those logs plus the curated activity
   tables.
 
-The preparation logs and the prepared receptor and ligand PDBQT files are added
-to the data deposit in the version cited by the article, so that every table
-reproduces from the deposit without any file from the author's machine.
+Deposit v2.0 (10.5281/zenodo.23270845) carries those preparation logs and the
+prepared receptor and ligand PDBQT files, so every table now reproduces from the
+deposit alone, with no file from the author's machine.
 
 ## Early-recognition metrics
 
