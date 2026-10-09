@@ -29,6 +29,7 @@ python revision_dataset_audit.py --data-root ../.. --out-dir ../../data/revision
 python revision_hitquality.py    --data-root ../.. --out-dir ../../data/revision_2026
 python early_recognition.py      --data-root ../.. --out-dir ../../data/revision_2026
 python score_audit.py            --data-root ../.. --ablation-root <ablation dir> --out-dir ../../data/revision_2026
+python attrition.py              --data-root ../.. --out-dir ../../data/revision_2026
 python make_figures_v2.py
 ```
 
@@ -41,7 +42,8 @@ Verified on 9 October 2026 against the published data deposit
 byte-identical `intersection_delong.csv`, `endtoend_delong.csv`,
 `decomposition.csv`, `decoy_contamination.csv`, `decoy_sensitivity.csv`,
 `assay_provenance.csv`, `score_range_audit.csv`,
-`nonphysical_score_sensitivity.csv` and all three meta-analysis JSON files.
+`nonphysical_score_sensitivity.csv`, `attrition_by_arm.csv` and all three meta-analysis JSON
+files.
 
 Three tables need inputs the deposit does not carry and therefore do not
 reproduce from it alone:
@@ -66,6 +68,16 @@ value. BEDROC chance follows Truchon and Bayly (2007) at RIE = 1 and is near
 from the October 2026 working tables in the third decimal because the released
 script computes them on the same ranked list as the other metrics; no
 comparison, median or count in the article changes.
+
+## Attrition by arm
+
+`attrition.py` writes the per-arm scoring rates behind Additional file 1, Table S18: for every
+target and protocol, the fraction of actives and the fraction of decoys that received a score,
+their difference, and the end-to-end ROC AUC of the same arm. Across the 22 arms the difference
+and the AUC correlate at Pearson r = 0.903 (p = 8.5e-09), and all six arms with an AUC below 0.5
+have a negative difference. This is what makes the end-to-end endpoint interpretable: it charges a
+workflow for the compounds it never scored, so it is driven by which class of compound goes
+unscored as much as by the ordering of the rest.
 
 ## Score-range audit
 
